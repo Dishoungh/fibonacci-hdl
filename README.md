@@ -12,10 +12,10 @@ After the final number in the sequence, the sequence will reset back to 0,1,1,2,
 
             _________
             |       |
-  clk[0:0]--|       |
+      clk --|       |
             |  Fib  |-- out[31:0]
             |       |
-  rst[0:0]--|       |
+      rst --|       |
             ---------
 
 Design code is located in `fibonacci.srcs/sources_1/new/fibonacci.v`.
