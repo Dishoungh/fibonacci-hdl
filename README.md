@@ -14,14 +14,7 @@ Testbench code is located in `fibonacci.srcs/sim_1/new/fib_tb.v`.
 
 ## Block Diagram
 
-The following images below is a high level visualization of the HDL module. The second screenshot is an image from Vivado's block design representation of the Fibonacci module.
-            _________
-            |       |
-      clk --|       |
-            |  Fib  |-- out[31:0]
-            |       |
-      rst --|       |
-            ---------
+The following images below is a high level visualization of the HDL module.
 
 ![Block Diagram](./Fibonacci_Block_Diagram.png)
 
